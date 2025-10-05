@@ -1,0 +1,17 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://postgres:5432/test-database
+    username: postgres
+    password: Postgres1234567890
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate.dialect: org.hibernate.dialect.PostgreSQLDialect
+
+telemetry:
+  retention-days: 30
+  sampling-rate-ms: 5000
+  alert-thresholds:
+    temperature: 75
+    humidity: 90
