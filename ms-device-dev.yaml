@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://postgres:5432/test-database-dev
+    username: postgres
+    password: DevPassword123
+
+device:
+  maxRegistrations: 10
+  updateSchedule: "0 0/5 * * * *"
