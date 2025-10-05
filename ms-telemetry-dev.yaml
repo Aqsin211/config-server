@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://postgres:5432/test-database-dev
+    username: postgres
+    password: Postgres1234567890
+  jpa:
+    show-sql: true
+
+telemetry:
+  retention-days: 15
+  sampling-rate-ms: 7000
+  alert-thresholds:
+    temperature: 70
+    humidity: 95
