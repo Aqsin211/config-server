@@ -21,7 +21,7 @@ server:
 
 device:
   updateSchedule: "0 0 2 * * *"
-  maxRegistrations: 1000
+  maxRegistrations: 999
   encryptionEnabled: true
   allowedFirmwareVersions:
     - "1.0.0"
