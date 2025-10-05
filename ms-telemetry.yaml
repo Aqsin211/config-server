@@ -13,7 +13,7 @@ telemetry:
   retention-days: 30
   sampling-rate-ms: 5000
   alert-thresholds:
-    temperature: 75
+    temperature: 70
     humidity: 90
 
 server:
