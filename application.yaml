@@ -1,6 +1,0 @@
-eureka:
-  instance:
-    prefer-ip-address: true
-  client:
-    service-url:
-      defaultZone: ${EUREKA_SERVER_NAME:http://discovery-server:8761/eureka}
