@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://prod-db:5432/prod-database
+    username: prod_user
+    password: ProdStrongPass
+
+device:
+  maxRegistrations: 10000
+  updateSchedule: "0 0 3 * * *"
