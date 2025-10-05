@@ -15,3 +15,6 @@ telemetry:
   alert-thresholds:
     temperature: 75
     humidity: 90
+
+server:
+  port: 8082
