@@ -1,0 +1,17 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://prod-db:5432/telemetry-database
+    username: prod_user
+    password: ProdStrongPass
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate.dialect: org.hibernate.dialect.PostgreSQLDialect
+
+telemetry:
+  retention-days: 60
+  sampling-rate-ms: 3000
+  alert-thresholds:
+    temperature: 80
+    humidity: 85
